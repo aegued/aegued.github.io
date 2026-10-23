@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Freelancer - Start Bootstrap Theme</title>
+        <meta name="description" content="Alfredo Egüed Guerra, Senior Backend Developer especializado en PHP y Laravel. Más de 16 años de experiencia en API REST, integraciones y desarrollo web." />
+        <meta name="author" content="Alfredo Egüed Guerra" />
+        <title>Alfredo Egüed Guerra — Senior Backend Developer PHP / Laravel</title>
+        <!-- Open Graph-->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://aegued.github.io/" />
+        <meta property="og:title" content="Alfredo Egüed Guerra — Senior Backend Developer PHP / Laravel" />
+        <meta property="og:description" content="Más de 16 años desarrollando aplicaciones web, API REST e integraciones con PHP y Laravel. Disponibilidad para trabajo remoto." />
+        <meta property="og:locale" content="es_ES" />
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -20,16 +26,17 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
+                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Abrir menú de navegación">
+                    Menú
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Sobre mí</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#experience">Experiencia</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Habilidades</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#formacion">Formación</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,421 +44,357 @@
         <!-- Masthead-->
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" />
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
+                <h1 class="masthead-heading masthead-heading-xs text-uppercase mb-2">Alfredo Egüed Guerra</h1>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-bold mb-4">Senior Backend Developer · PHP / Laravel</p>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
+                <!-- Masthead Actions-->
+                <div class="masthead-actions">
+                    <a class="btn btn-outline-light btn-lg mx-1 mb-2" href="https://www.linkedin.com/in/alfredo-egued-guerra" target="_blank" rel="noopener">
+                        <i class="fab fa-linkedin-in mr-2"></i>
+                        LinkedIn
+                    </a>
+                    <a class="btn btn-outline-light btn-lg mx-1 mb-2" href="https://github.com/aegued" target="_blank" rel="noopener">
+                        <i class="fab fa-github mr-2"></i>
+                        GitHub
+                    </a>
+                    <a class="btn btn-outline-light btn-lg mx-1 mb-2" href="mailto:egued89@gmail.com">
+                        <i class="fas fa-envelope mr-2"></i>
+                        Email
+                    </a>
+                </div>
             </div>
         </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <!-- About Section-->
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <h2 class="page-section-heading page-section-heading-xs text-center text-uppercase text-white mb-0">Sobre mí</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
+                <div class="divider-custom divider-light mt-2">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-user"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                    <div class="col-lg-5 ml-auto">
+                        <p class="lead">Desarrollador backend especializado en PHP y Laravel, con más de 16 años de experiencia en el desarrollo de aplicaciones web. Mi trayectoria abarca el diseño, desarrollo y mantenimiento de API REST, la integración de servicios externos y la evolución de sistemas existentes.</p>
+                    </div>
+                    <div class="col-lg-5 mr-auto">
+                        <p class="lead">Trabajo a diario con el ecosistema Laravel —jobs, colas de trabajo, tareas programadas y WebSockets—, además de GraphQL, bases de datos relacionales y desarrollo con WordPress. Me coordino con equipos técnicos, organizo tareas y trato directamente con clientes, e integro herramientas de inteligencia artificial en el flujo de desarrollo como apoyo a la programación y el análisis.</p>
+                    </div>
                 </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download mr-2"></i>
-                        Free Download!
-                    </a>
+                <!-- About Section Highlights-->
+                <div class="row mt-5 text-center">
+                    <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+                        <p class="stat-number mb-1">16+</p>
+                        <p class="stat-label mb-0">Años de experiencia</p>
+                    </div>
+                    <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+                        <p class="stat-number mb-1">5 → 13</p>
+                        <p class="stat-label mb-0">Versiones de Laravel</p>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <p class="stat-number mb-1">4</p>
+                        <p class="stat-label mb-0">Programadores coordinados</p>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <p class="stat-number mb-1">100%</p>
+                        <p class="stat-label mb-0">Trabajo remoto</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Experience Section-->
+        <section class="page-section" id="experience">
+            <div class="container">
+                <!-- Experience Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Experiencia</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-briefcase"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Experience Timeline-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <div class="timeline">
+                            <!-- Timeline Item 1-->
+                            <article class="timeline-item">
+                                <p class="timeline-period mb-1">2020 – Actualidad</p>
+                                <h3 class="timeline-role">Desarrollador PHP / Laravel</h3>
+                                <p class="timeline-company mb-3">Labelgrup Networks</p>
+                                <ul class="timeline-list">
+                                    <li>Desarrollo y mantenimiento de aplicaciones backend y API con Laravel; actualmente trabajo con Laravel 13.</li>
+                                    <li>Implementación de jobs, colas de trabajo, tareas programadas y WebSockets dentro del ecosistema Laravel.</li>
+                                    <li>Diseño e integración de API y servicios externos, incluyendo Redsys y Microsoft Azure.</li>
+                                    <li>Desarrollo de soluciones con GraphQL.</li>
+                                    <li>Bases de datos: MySQL, MariaDB y PostgreSQL.</li>
+                                    <li>Desarrollo de temas y plugins de WordPress.</li>
+                                    <li>Uso de herramientas de IA integradas en el proceso de desarrollo para apoyar tareas de programación y análisis.</li>
+                                </ul>
+                            </article>
+                            <!-- Timeline Item 2-->
+                            <article class="timeline-item">
+                                <p class="timeline-period mb-1">2018 – 2020</p>
+                                <h3 class="timeline-role">Desarrollador PHP / Laravel · Responsable de desarrollo</h3>
+                                <p class="timeline-company mb-3">MultiCuba</p>
+                                <ul class="timeline-list">
+                                    <li>Desarrollo del API y de la web de una aplicación móvil basada en Laravel.</li>
+                                    <li>Dirección y coordinación de un equipo de cuatro programadores.</li>
+                                    <li>Organización del trabajo y seguimiento de las tareas de desarrollo.</li>
+                                </ul>
+                            </article>
+                            <!-- Timeline Item 3-->
+                            <article class="timeline-item">
+                                <p class="timeline-period mb-1">2018 – 2019</p>
+                                <h3 class="timeline-role">Desarrollador de aplicaciones web</h3>
+                                <p class="timeline-company mb-3">Jabbar.tech</p>
+                                <ul class="timeline-list">
+                                    <li>Desarrollo de aplicaciones web utilizando PHP y Laravel.</li>
+                                </ul>
+                            </article>
+                            <!-- Timeline Item 4-->
+                            <article class="timeline-item">
+                                <p class="timeline-period mb-1">2009 – 2018</p>
+                                <h3 class="timeline-role">Desarrollador de aplicaciones</h3>
+                                <p class="timeline-company mb-3">Freelancer</p>
+                                <ul class="timeline-list">
+                                    <li>Desarrollo de aplicaciones web para distintos clientes, principalmente con PHP y frameworks como Laravel y CodeIgniter, además de WordPress, Drupal y Joomla.</li>
+                                    <li>Desarrollo de una aplicación de escritorio con C# y una aplicación móvil con C# y Xamarin.</li>
+                                </ul>
+                            </article>
+                            <!-- Timeline Item 5-->
+                            <article class="timeline-item">
+                                <p class="timeline-period mb-1">2011 – 2016</p>
+                                <h3 class="timeline-role">Técnico informático / Administrador de redes</h3>
+                                <p class="timeline-company mb-3">Asociación Hermanos Saiz</p>
+                                <ul class="timeline-list">
+                                    <li>Soporte y mantenimiento de equipos informáticos, administración de redes y resolución de incidencias técnicas.</li>
+                                </ul>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section-->
+        <section class="page-section bg-light" id="skills">
+            <div class="container">
+                <!-- Skills Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Habilidades</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-terminal"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Skills Grid-->
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="skill-card">
+                            <h3><i class="fas fa-code mr-2" aria-hidden="true"></i>Backend y lenguajes</h3>
+                            <p class="mb-0">PHP · Laravel · Symfony · CodeIgniter · C# · C++</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="skill-card">
+                            <h3><i class="fab fa-laravel mr-2" aria-hidden="true"></i>Ecosistema Laravel</h3>
+                            <p class="mb-0">Eloquent ORM · Blade · Livewire · Filament · Jobs · Colas de trabajo · Scheduler · Eventos y listeners · Notificaciones · WebSockets · Redis</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="skill-card">
+                            <h3><i class="fas fa-plug mr-2" aria-hidden="true"></i>APIs e integraciones</h3>
+                            <p class="mb-0">API REST · GraphQL · Swagger/OpenAPI · Autenticación y autorización · Redsys · Microsoft Azure · Elasticsearch</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="skill-card">
+                            <h3><i class="fas fa-database mr-2" aria-hidden="true"></i>Bases de datos</h3>
+                            <p class="mb-0">MySQL · PostgreSQL · MariaDB · Diseño de esquemas y consultas SQL</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="skill-card">
+                            <h3><i class="fas fa-vial mr-2" aria-hidden="true"></i>Testing y calidad</h3>
+                            <p class="mb-0">PHPUnit · Pruebas unitarias y funcionales · Estándares de codificación · Refactorización</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="skill-card">
+                            <h3><i class="fas fa-cubes mr-2" aria-hidden="true"></i>Arquitectura y buenas prácticas</h3>
+                            <p class="mb-0">Principios SOLID · Arquitectura Hexagonal</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <div class="skill-card">
+                            <h3><i class="fas fa-laptop-code mr-2" aria-hidden="true"></i>CMS y frontend</h3>
+                            <p class="mb-0">WordPress (temas y plugins) · Drupal · Joomla · JavaScript · jQuery · React · Vue.js · HTML5 · CSS3 · Bootstrap · Tailwind CSS</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="skill-card">
+                            <h3><i class="fas fa-tools mr-2" aria-hidden="true"></i>Herramientas y entorno</h3>
+                            <p class="mb-0">Docker · Linux · Git · Composer · Laravel Pint · PHPStan · Xdebug · Postman · Jira · Outline · Herramientas de IA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Education Section-->
+        <section class="page-section" id="formacion">
+            <div class="container">
+                <!-- Education Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Formación</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row">
+                    <!-- Education-->
+                    <div class="col-lg-7">
+                        <div class="education-item">
+                            <p class="education-period mb-1">2020 – 2022</p>
+                            <h3 class="h5 mb-1">Programación en PHP, JavaScript y MySQL</h3>
+                            <p class="mb-0 text-muted">Deusto Formación · Diploma de Deusto y titulación de la Universidad de Salamanca.</p>
+                        </div>
+                        <div class="education-item">
+                            <p class="education-period mb-1">2012 – 2014</p>
+                            <h3 class="h5 mb-1">Estudios de Ingeniería Informática</h3>
+                            <p class="mb-0 text-muted">Universidad Tecnológica de La Habana «José Antonio Echeverría» (CUJAE) · Estudios universitarios cursados, sin titulación finalizada. Formación en programación, incluyendo C++.</p>
+                        </div>
+                        <div class="education-item">
+                            <p class="education-period mb-1">2003 – 2007</p>
+                            <h3 class="h5 mb-1">Técnico Medio en Informática</h3>
+                            <p class="mb-0 text-muted">Instituto Politécnico de Informática Osvaldo Herrera.</p>
+                        </div>
+                    </div>
+                    <!-- Languages-->
+                    <div class="col-lg-5 mt-4 mt-lg-0">
+                        <div class="p-4 bg-light rounded h-100">
+                            <h3 class="text-uppercase h6 mb-4">Idiomas</h3>
+                            <p class="mb-3"><strong>Español</strong><br /><span class="text-muted">Nativo</span></p>
+                            <p class="mb-0"><strong>Inglés</strong><br /><span class="text-muted">Comprensión de documentación técnica y comunicación escrita con equipos internacionales.</span></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- Contact Section-->
-        <section class="page-section" id="contact">
+        <section class="page-section bg-light" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contacto</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-paper-plane"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Contact Section Form-->
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
-                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Name</label>
-                                    <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Email Address</label>
-                                    <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Phone Number</label>
-                                    <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Message</label>
-                                    <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <br />
-                            <div id="success"></div>
-                            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
-                        </form>
+                <!-- Contact Intro-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <p class="lead mb-5">¿Tienes un proyecto o una oportunidad que encaje con mi perfil? Escríbeme y te respondo lo antes posible.</p>
                     </div>
                 </div>
+                <!-- Contact Cards-->
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-5 mb-4">
+                        <a class="contact-card" href="mailto:egued89@gmail.com">
+                            <span class="contact-icon"><i class="fas fa-envelope" aria-hidden="true"></i></span>
+                            <span>
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">egued89@gmail.com</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-5 mb-4">
+                        <a class="contact-card" href="tel:+34658797881">
+                            <span class="contact-icon"><i class="fas fa-phone" aria-hidden="true"></i></span>
+                            <span>
+                                <span class="contact-label">Teléfono</span>
+                                <span class="contact-value">+34 658 79 78 81</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-5 mb-4">
+                        <a class="contact-card" href="https://www.linkedin.com/in/alfredo-egued-guerra" target="_blank" rel="noopener">
+                            <span class="contact-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></span>
+                            <span>
+                                <span class="contact-label">LinkedIn</span>
+                                <span class="contact-value">alfredo-egued-guerra</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-5 mb-4">
+                        <a class="contact-card" href="https://github.com/aegued" target="_blank" rel="noopener">
+                            <span class="contact-icon"><i class="fab fa-github" aria-hidden="true"></i></span>
+                            <span>
+                                <span class="contact-label">GitHub</span>
+                                <span class="contact-value">github.com/aegued</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Contact Location-->
+                <p class="text-center text-muted mb-0">
+                    <i class="fas fa-map-marker-alt mr-2" aria-hidden="true"></i>
+                    España
+                </p>
             </div>
         </section>
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container">
                 <div class="row">
-                    <!-- Footer Location-->
+                    <!-- Footer Availability-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <h4 class="text-uppercase mb-4">Disponibilidad</h4>
                         <p class="lead mb-0">
-                            2215 John Daniel Drive
+                            España
                             <br />
-                            Clark, MO 65243
+                            Trabajo remoto
                         </p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                        <h4 class="text-uppercase mb-4">Enlaces</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/alfredo-egued-guerra" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/aegued" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-fw fa-github"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="mailto:egued89@gmail.com" aria-label="Email"><i class="fas fa-fw fa-envelope"></i></a>
                     </div>
-                    <!-- Footer About Text-->
+                    <!-- Footer Contact-->
                     <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                        <h4 class="text-uppercase mb-4">Contacto</h4>
                         <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
+                            egued89@gmail.com
+                            <br />
+                            +34 658 79 78 81
                         </p>
                     </div>
                 </div>
             </div>
         </footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright © Your Website 2020</small></div>
-        </div>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <div class="scroll-to-top d-lg-none position-fixed">
-            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
-        </div>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Log Cabin</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Tasty Cake</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">Circus Tent</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">Controller</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal5Label">Locked Safe</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal6Label">Submarine</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top" aria-label="Volver arriba"><i class="fa fa-chevron-up"></i></a>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Contact form JS-->
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
